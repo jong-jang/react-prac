@@ -105,6 +105,10 @@ const Styles = styled.section`
         height:30px;
     }
     & .face {
+        position:relative;
+        left:0;
+        right:0;
+        margin:auto;
         width:800px;
         height:600px;
         border:1px solid #333;
