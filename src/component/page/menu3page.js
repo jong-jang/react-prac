@@ -31,21 +31,12 @@ const Menu3page = ({title}) => {
         reye.current.style.top = yeye+'%';
 
     }
-
-    const outCursor = () => {
-        setXeye(50);
-        setYeye(50);
-        leye.current.style.left = xeye+'%';
-        reye.current.style.left = xeye+'%';
-        leye.current.style.top = yeye+'%';
-        reye.current.style.top = yeye+'%';
-    }
     
     return (
         <div>
             <TitleOne title={title} />
             <h3>- eye hover</h3>
-            <div className='face' onMouseMove={hoverCheck} onMouseOut={outCursor}>
+            <div className='face' onMouseMove={hoverCheck}>
                 <div className='eye lf'>
                     <div className='ey le' ref={leye}></div>
                 </div>
