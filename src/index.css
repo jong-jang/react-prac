@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-layout::after {
+  content:"";
+  display:block;
+  clear:both; 
+}
+
+.clearfix {
+  content:"";
+  display:block;
+  clear:both;
+}
+.btnon {
+  left:270px !important;
+}
+.btnoff {
+  left:70px !important;
+}
+.liston {
+  left:70px !important;
+  z-index:1 !important;
+}
+.listoff {
+  left:-130px !important;
+  z-index:-1 !important;
+}
+.onsec {
+  width:calc(100% - 271px) !important;
+  margin-left:199px !important;
+}
+.offsec {
+  width:calc(100% - 72px) !important;
+}
+
+.container {
+  height:100vh;
+  overflow:auto;
+}
